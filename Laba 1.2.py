@@ -7,6 +7,8 @@ else:
 
 if 37 <= C <= 54:
     S = S + "боковое"
+else:
+    S = S + "купе"
 
 if 1 <= C <= 54:
     print(S)
